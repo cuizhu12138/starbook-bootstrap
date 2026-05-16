@@ -2,7 +2,7 @@
 set -euo pipefail
 
 REPO_URL="https://github.com/cuizhu12138/starbook-agent-memory.git"
-VERSION="v0.3.12"
+VERSION="v0.3.13"
 INSTALL_DIR="${HOME}/.starbook/starbook-agent-memory"
 FORWARD_ARGS=()
 NEEDS_YES="true"
@@ -17,7 +17,7 @@ StarBook public bootstrap
 
 选项：
   --repo-url <url>      StarBook private repo；默认 https://github.com/cuizhu12138/starbook-agent-memory.git。
-  --version <tag>      StarBook tag；默认 v0.3.12。
+  --version <tag>      StarBook tag；默认 v0.3.13。
   --install-dir <dir>  StarBook clone 目录；默认 ~/.starbook/starbook-agent-memory。
   其它参数会透传给 StarBook 安装器。
 EOF
